@@ -1,13 +1,11 @@
-import { Card } from './components/Card/Card';
-import { Usuario } from './components/Usuario/Usuario';
+//import Counter from "./components/Counter";
+import Text from "./components/Text";
 
 function App() {
 
   return (
     <div>
-      <Usuario nombre="Pucheta" edad={22} nacionalidad="México"/>
-      <Usuario nombre="Vargas" edad={23} nacionalidad="Xalapa"/>
-      <Card/>
+      <Text/>
     </div>
   );
 }
