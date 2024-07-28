@@ -1,11 +1,10 @@
-//import Counter from "./components/Counter";
-import Text from "./components/Text";
+import ItemListContainer from "./components/ItemListContainer";
 
 function App() {
 
   return (
     <div>
-      <Text/>
+      <ItemListContainer />
     </div>
   );
 }
