@@ -1,10 +1,10 @@
-import ItemListContainer from "./components/ItemListContainer";
+import PokemonList from "./components/PokemonList";
 
 function App() {
 
   return (
     <div>
-      <ItemListContainer />
+      <PokemonList />
     </div>
   );
 }
