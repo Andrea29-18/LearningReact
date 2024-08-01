@@ -1,10 +1,15 @@
-import PokemonList from "./components/PokemonList";
+import ItemListContainer from "./components/ItemListContainer";
+import ItemDetailContainer from "./components/ItemDetailContainer";
+import Navbar from "./components/Navbar";
+import "./main.css"
 
 function App() {
 
   return (
     <div>
-      <PokemonList />
+      <Navbar/>
+      <ItemListContainer/>
+      <ItemDetailContainer itemId={2}/>
     </div>
   );
 }
