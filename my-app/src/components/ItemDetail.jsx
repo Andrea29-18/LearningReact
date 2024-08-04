@@ -1,14 +1,16 @@
+import { toCapital } from "../helpers/toCapital"
+
 
 const ItemDetail = ({ item }) => {
     return (
         <div className="container">
             <div className="producto-detalle">
-                <img src={item.image} alt={item.title} />
+                <img src={item.imagen} alt={item.titulo} />
                 <div>
-                    <h3 className="titulo">{item.title}</h3>
-                    <p className="description">{item.description}</p>
-                    <p className="categoria"> Categoria: {item.category} </p>
-                    <p className="precio"> Precio: ${item.price} </p>
+                    <h3 className="titulo">{item.titulo}</h3>
+                    <p className="descripcion">{item.descripcion}</p>
+                    <p className="categoria">Categoría: {toCapital(item.categoria)}</p>
+                    <p className="precio">${item.precio}</p>
                 </div>
             </div>
         </div>
